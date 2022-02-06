@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
     @IBAction func click(_ sender: Any) {
 
-        label.text = "Hello \(firstName.text!),  \(lastName.text!)"
+        label.text = "Hello, \(firstName.text!) \(lastName.text!)"
     }
     
     
