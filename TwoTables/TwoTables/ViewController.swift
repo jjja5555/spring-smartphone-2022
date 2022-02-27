@@ -14,8 +14,8 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
     
     @IBOutlet var tbl2: UITableView!
     
-    var arr1 = ["SEA","NYC","SFO","OAD"]
-    var arr2 = ["Seattle","New york","San Francisco","Chicago"]
+    var arr1 = ["SEA","NYC","SFOe4","OAD"]
+    var arr2 = ["Seattle","New York","San Francisco","Chicago"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -41,6 +41,17 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
             return cell
         }
         
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            if tableView == tbl1{
+                arr1.remove(at: indexPath.row)
+            }else {
+                arr2.remove(at: indexPath.row)
+            }
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
     }
 
 
