@@ -7,5 +7,5 @@
 
 import Foundation
 
-let stockurl = "https://financialmodelingprep.com/api/v3/quote-short/"
+let stockurl = "https://financialmodelingprep.com/api/v3/quote/"
 let key = "d9457a832eced8edd8c9baf70243612d"

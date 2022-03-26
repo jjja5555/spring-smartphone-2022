@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var textField: UITextField!
     @IBOutlet var output: UILabel!
+    @IBOutlet var textView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after x1loading the view.
@@ -41,11 +42,15 @@ class ViewController: UIViewController {
             }
             
             print("stock price is: \(stock)")
-            let quote = QuoteShort();
+            let quote = QuoteDetail();
             quote.symbol = stock["symbol"].stringValue
             quote.price = stock["price"].floatValue
             quote.volume = stock["volume"].intValue
+            quote.name = stock["name"].stringValue
+            quote.dayLow = stock["dayLow"].floatValue
+            quote.dayHigh = stock["dayHigh"].floatValue
             self.output.text = "\(quote.symbol) , \(quote.price) , \(quote.volume)"
+            self.textView.text = "Name: \(quote.name) \nDay High: \(quote.dayHigh) \nDay Low: \(quote.dayLow)"
             
         }
     }
