@@ -15,6 +15,7 @@
 		1E0349A027C2C7DE00CD7B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E03499E27C2C7DE00CD7B3E /* LaunchScreen.storyboard */; };
 		1E0349A927C2C80C00CD7B3E /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0349A827C2C80C00CD7B3E /* URLs.swift */; };
 		1E3BE85B27C2DCF60030DED3 /* QuoteShort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BE85A27C2DCF60030DED3 /* QuoteShort.swift */; };
+		1E408C4D27F005EC00E4AEAE /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E408C4C27F005EC00E4AEAE /* Quote.swift */; };
 		1E4D8A7427EFC32B00B8C996 /* QuoteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4D8A7327EFC32B00B8C996 /* QuoteDetail.swift */; };
 		DD55A2CBFD231AA34D1151FA /* Pods_StockXiao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F509F3703C1DB809F71CED /* Pods_StockXiao.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		1E0349A127C2C7DE00CD7B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E0349A827C2C80C00CD7B3E /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		1E3BE85A27C2DCF60030DED3 /* QuoteShort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteShort.swift; sourceTree = "<group>"; };
+		1E408C4C27F005EC00E4AEAE /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		1E4D8A7327EFC32B00B8C996 /* QuoteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetail.swift; sourceTree = "<group>"; };
 		43F509F3703C1DB809F71CED /* Pods_StockXiao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockXiao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA18CE30014CBFE638DD5A4C /* Pods-StockXiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockXiao.debug.xcconfig"; path = "Target Support Files/Pods-StockXiao/Pods-StockXiao.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				1E0349A127C2C7DE00CD7B3E /* Info.plist */,
 				1E3BE85A27C2DCF60030DED3 /* QuoteShort.swift */,
 				1E4D8A7327EFC32B00B8C996 /* QuoteDetail.swift */,
+				1E408C4C27F005EC00E4AEAE /* Quote.swift */,
 			);
 			path = StockXiao;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				1E03499627C2C7DE00CD7B3E /* SceneDelegate.swift in Sources */,
 				1E4D8A7427EFC32B00B8C996 /* QuoteDetail.swift in Sources */,
 				1E3BE85B27C2DCF60030DED3 /* QuoteShort.swift in Sources */,
+				1E408C4D27F005EC00E4AEAE /* Quote.swift in Sources */,
 				1E0349A927C2C80C00CD7B3E /* URLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
