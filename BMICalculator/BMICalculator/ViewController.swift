@@ -23,8 +23,9 @@ class ViewController: UIViewController {
         let weightInKg = Double(txtWeight.text!)! * 0.453592
         let heightInCm = Double(txtFeet.text!)! * 30.48 + Double(txtInches.text!)! * 2.54
         let heightInM = heightInCm/100
-        let bmi = weightInKg / (heightInM * heightInM)
-        txtResult.text = "BMI:\(round(bmi * 100) / 100.0)"
+        var bmi = weightInKg / (heightInM * heightInM)
+        bmi = round(bmi * 100) / 100.0
+        txtResult.text = "BMI:\(bmi)"
         
     }
     
