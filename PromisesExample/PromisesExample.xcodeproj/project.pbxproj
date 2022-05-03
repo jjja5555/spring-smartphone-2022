@@ -14,6 +14,7 @@
 		1E42337527F0014800ACA3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E42337327F0014800ACA3EB /* Main.storyboard */; };
 		1E42337727F0014800ACA3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E42337627F0014800ACA3EB /* Assets.xcassets */; };
 		1E42337A27F0014800ACA3EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E42337827F0014800ACA3EB /* LaunchScreen.storyboard */; };
+		1EFC89D327F08903007753FA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC89D227F08903007753FA /* TableViewController.swift */; };
 		4129E1AAA28F1CAB130F959D /* Pods_PromisesExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C806E68748B18A9D7F8B7AF /* Pods_PromisesExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		1E42337627F0014800ACA3EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E42337927F0014800ACA3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E42337B27F0014800ACA3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFC89D227F08903007753FA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3F7DD4A15B8929C16362B834 /* Pods-PromisesExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromisesExample.release.xcconfig"; path = "Target Support Files/Pods-PromisesExample/Pods-PromisesExample.release.xcconfig"; sourceTree = "<group>"; };
 		5C806E68748B18A9D7F8B7AF /* Pods_PromisesExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PromisesExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E76DC9330AB7B950D3225DA /* Pods-PromisesExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PromisesExample.debug.xcconfig"; path = "Target Support Files/Pods-PromisesExample/Pods-PromisesExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				1E42337827F0014800ACA3EB /* LaunchScreen.storyboard */,
 				1E42337B27F0014800ACA3EB /* Info.plist */,
 				1E408C4E27F0060900E4AEAE /* Quote.swift */,
+				1EFC89D227F08903007753FA /* TableViewController.swift */,
 			);
 			path = PromisesExample;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				1E408C4F27F0060900E4AEAE /* Quote.swift in Sources */,
 				1E42337227F0014800ACA3EB /* ViewController.swift in Sources */,
 				1E42336E27F0014800ACA3EB /* AppDelegate.swift in Sources */,
+				1EFC89D327F08903007753FA /* TableViewController.swift in Sources */,
 				1E42337027F0014800ACA3EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

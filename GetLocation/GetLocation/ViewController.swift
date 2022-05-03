@@ -42,8 +42,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         print(lng)
         
         getAddress(location: location)
-        
-                
     }
     
     func getAddress(location : CLLocation){
