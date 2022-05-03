@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         bmi = round(bmi * 100) / 100.0
         var msg = ""
         if(bmi < 18.5){
-            msg = "Under Weight"
+            msg = "UnderWeight"
         }else if(bmi < 25){
             msg = "Healthy weight"
         }else if(bmi < 30){
